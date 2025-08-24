@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima Tempo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <center>
+        <h1>Previsão do Tempo</h1>
+        <fieldset>
+        <input type="text" id="city" placeholder="Digite uma cidade">
+        <button onclick="getWeather()"><img src="search.png"></button>
+        <div id="clima-card"></div>
+        <h2 id="cidade"></h2>
+        <p id="temperatura"></p>
+        <p id="descricao"></p>
+        <p id="umidade"></p>
+        <p id="vento"></p>
+        </div>
+        </fieldset>
+
+
+    </center>
+    <script src="script.js"></script>
+</body>
+</html>

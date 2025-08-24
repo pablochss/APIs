@@ -1,0 +1,36 @@
+body {
+font-family: Arial, sans-serif;
+background-color: #3d20a7;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 90vh;
+}
+
+fieldset{
+    height: 100%;
+    width: 500px;
+    background-color: #238cbd;
+    border: solid #1561b8;
+    border-radius: 15px;
+}
+
+label{ 
+padding: 25px;
+border-radius: 10px;
+width: 300px;
+}
+
+input {
+width: 90%;
+padding: 10px;
+margin-bottom: 15px;
+border: 1px solid #0554ff;
+border-radius: 5px;
+font-size: 14px;
+}
+
+input:focus{
+    border-color: rgb(80, 36, 0);
+    outline: none;
+}
